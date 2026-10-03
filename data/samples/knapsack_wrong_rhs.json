@@ -1,0 +1,9 @@
+{
+  "variables": ["x_1", "x_2", "x_3"],
+  "constraints": [
+    {"name": "capacity", "coeffs": {"x_1": 10.0, "x_2": 20.0, "x_3": 30.0}, "rhs": 60.0, "sense": "<="}
+  ],
+  "objective": {"coeffs": {"x_1": 60.0, "x_2": 100.0, "x_3": 120.0}, "sense": "maximize"},
+  "matched": [[0, 0]],
+  "optimal_value": 280.0
+}
